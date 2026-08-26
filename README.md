@@ -1,54 +1,97 @@
 # Mahesh
 
-**B.Tech AI/ML Student | Applied AI | Android & Systems Engineering**
+**B.Tech AI/ML Student · Preparing for AI Safety Evaluator / Agent Safety & Safeguards roles**
 
-I build practical software and use each project to understand how systems behave in the real world. My work so far has focused on Kotlin/Android applications, interactive prototypes, system integrations, and privacy-aware product design. I am also exploring applied AI systems, LLM integration, evaluation, and the engineering trade-offs behind reliable and responsible AI features.
+I am building the practical skills needed to evaluate tool-using AI agents safely and reproducibly.
+My focus is turning safety policies and tool-use risks into clear test cases, metrics, graders, mitigations, and regression suites that another person can independently run and verify.
 
-I prefer small, understandable systems with clear boundaries over inflated claims. This profile is a record of that progression: from working prototypes to more structured applications with explicit architecture, tests, CI, and documented limitations.
+> I design controlled evaluations, measure both safety and useful-task performance, and document limitations honestly.
 
-## Current Focus
+---
 
-- Android and Kotlin engineering with Jetpack Compose
-- Applied AI and LLM API integration
-- Behavior-driven interactive systems and state machines
-- Privacy-aware features, permissions, and failure handling
-- Learning more about AI evaluation, trust, and safety
+### What I Am Currently Mastering
 
-## Featured Projects
+- Translating safety policies into measurable behaviors
+- Designing realistic test cases (benign, harmful, ambiguous, over-refusal)
+- Running controlled model and agent evaluations with full experimental metadata
+- Building deterministic and model-based graders
+- Calculating core safety and usefulness metrics (attack success rate, correct-refusal, over-refusal, task completion)
+- Proposing and testing mitigations while checking for new trade-offs
+- Creating held-out regression tests and one-command reproducible suites
+- Writing clear technical reports with honest limitations
 
-| Project | What it demonstrates |
-|---|---|
-| [Sparrow](https://github.com/maxew6/sparrow-android) | An offline Android floating companion using an overlay service, gesture handling, foreground-service controls, local persistence, and unit-tested behavior. |
-| [Charging-](https://github.com/maxew6/Charging-) | A Jetpack Compose charging dashboard with live or simulated battery telemetry, charging-state classification, thermal warnings, visual modes, and automated tests. |
-| [Pocket Pet](https://github.com/maxew6/pocket-pet) | A modular Android overlay companion with a testable behavior engine, bounded state catch-up, privacy controls, and explicit platform limitations. |
-| [OrangePet App](https://github.com/maxew6/orange-pet-app) | A Shimeji-style Android overlay with a prioritized behavior scheduler, optional Gemini-generated greetings, offline fallback behavior, and privacy safeguards. |
-| [Obsession Icon Pack](https://github.com/maxew6/obsession-theme-pack) | An Android icon-pack project combining custom visual design, launcher integration, adaptive icons, and a Material 3 interface. |
-| [Pocket Pup Android](https://github.com/maxew6/pocket-pup-android) | A smaller Android overlay-pet prototype showing an earlier stage of the same product-building progression. |
+---
 
-## Technologies
+### Core Skills I Am Building
 
-**Languages:** Kotlin, Java, GDScript
+**Lightweight Python for evaluation work**
+Variables, functions, CSV/JSONL handling, API calls, error handling & retries, saving prompts/responses/parameters, basic pandas, simple pytest assertions
 
-**Android:** Jetpack Compose, Android SDK, foreground services, overlay windows, notifications, DataStore/SharedPreferences, coroutines and Flow
+**Model & Agent Fundamentals**
+Tokens & context windows · System / developer / user / tool instructions · Refusal vs safe-completion behavior · Direct & indirect prompt injection · Multi-turn manipulation · Tool selection & authorization · Memory poisoning · Sensitive-data disclosure · Under-refusal & over-refusal · Trusted vs untrusted content
 
-**AI systems:** LLM API integration, streaming responses, prompt-bound application features, offline fallbacks, and privacy-aware input boundaries
+**Evaluation Design**
+Threat models · Behavioral specifications · Positive & negative controls · Binary / ordinal / multi-label rubrics · Deterministic, model-based, and human graders · Development vs held-out sets · Repeated trials · Full reproducibility
 
-**Engineering:** Gradle, Git, GitHub Actions, unit testing, state machines, modular architecture, and documentation
+**Basic Statistics for Safety Work**
+Success/failure rates · Attack-success rate · Correct-refusal & over-refusal rates · Task-completion rate · Precision/recall · False positives/negatives · Confidence intervals
 
-## AI and Responsible Systems
+---
 
-My public work does not yet represent professional AI red-teaming or Trust & Safety experience, so I do not present it that way. The areas I am actively learning about include model evaluation, prompt and input boundaries, safe failure modes, privacy-preserving product behavior, and the security implications of AI-enabled applications.
+### Background Systems Experience
 
-The strongest evidence so far is application-level: keeping optional AI features bounded, limiting the data sent to models, providing deterministic offline fallbacks, and documenting what a system cannot safely do. I am working toward deeper, more systematic evaluation and adversarial testing rather than treating them as keywords.
+I previously built practical Android applications (Jetpack Compose, foreground services, overlays, state machines, privacy controls, offline fallbacks, unit-tested behavior engines).
 
-## Currently Learning
+That work trained me to:
+- Prefer small, understandable systems with explicit boundaries
+- Document what a system can and cannot do
+- Turn vague requirements into testable behavior
+- Write tests and keep clear records of limitations
 
-I am building a stronger foundation in AI evaluation, LLM application security, agent and tool boundaries, and reproducible testing. In parallel, I continue improving my Android architecture, build automation, and technical documentation.
+These habits map directly to evaluation design and reproducible safety work.
 
-## Contact
+---
+
+### Featured Projects (Current Public Work)
+
+| Project | What it shows |
+|---------|---------------|
+| Sparrow | Offline Android floating companion — overlay service, gesture handling, local persistence, unit-tested behavior |
+| Charging- | Jetpack Compose dashboard with telemetry, state classification, thermal warnings, automated tests |
+| Pocket Pet / OrangePet | Modular overlay companions with behavior schedulers, privacy controls, and explicit platform limits |
+| Obsession Icon Pack | Custom visual design + launcher integration |
+
+*(Evaluation harnesses and safety test suites are in active preparation and will be added here as they become reproducible.)*
+
+---
+
+### Engineering Habits I Carry Forward
+
+- Clear architecture and documented limitations
+- Unit testing and modular design
+- Full recording of prompts, responses, parameters, and timestamps
+- Preference for work another person can independently reproduce
+- Honest reporting of remaining risks and over-refusal trade-offs
+
+---
+
+### Currently Learning & Building Toward
+
+- Controlled evaluation pipelines for tool-using agents
+- Grader construction and validation
+- Mitigation experiments with safety–usefulness measurement
+- Regression suites that run with one command
+- Professional evaluation reports with threat models, methodology, results, and limitations
+
+---
+
+### Contact
 
 - GitHub: [@maxew6](https://github.com/maxew6)
 - X: [@maheshngxt](https://x.com/maheshngxt)
-- Email: [maheshkonda564@gmail.com](mailto:maheshkonda564@gmail.com)
+- Email: maheshkonda564@gmail.com
+- Location: India
 
-> This profile is intentionally selective. Repositories that are experimental, duplicated, private, or not yet documented are kept out of the main showcase until they are ready.
+---
+
+*This profile is a record of deliberate skill-building toward AI Safety Evaluator work — focused on reproducibility, clear measurement, and honest documentation of limitations.*
