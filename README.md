@@ -60,6 +60,7 @@ These habits map directly to evaluation design and reproducible safety work.
 | Charging- | Jetpack Compose dashboard with telemetry, state classification, thermal warnings, automated tests |
 | Pocket Pet / OrangePet | Modular overlay companions with behavior schedulers, privacy controls, and explicit platform limits |
 | Obsession Icon Pack | Custom visual design + launcher integration |
+| [Pipe Flow](https://github.com/maxew6/pipe-flow-godot) | Godot/Android puzzle game — sealed-network validation, 506 automated checks, real-scene proof screenshots, and a verified ARM64 APK |
 
 *(Evaluation harnesses and safety test suites are in active preparation and will be added here as they become reproducible.)*
 
